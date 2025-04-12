@@ -1,0 +1,210 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-image: url(../images/bg20.jpg);
+    width: 100%;
+    height: 100%;
+}
+
+/* for special h1 tag the main website hadding */
+
+.h1{
+    padding-bottom: 2%;
+    padding-top: 1%;
+    text-align: center;
+    letter-spacing: 3px;
+    word-spacing: 6px;
+    color: white;
+    text-shadow: 2px 2px 1px pink;
+}
+
+/*for the nav linn individual*/
+
+.Nav{
+    color: black;
+    text-decoration-line: none;
+}
+
+
+/*for nvaBar alingig theme center*/
+
+.navBar{
+    margin-top: 2%;
+    margin-right: 2%;
+    margin-left: 2%;
+    border-radius: 2rem;
+    display: flex;
+    background-color: white;
+    justify-content: right;
+}
+
+
+/* form main nav tag */
+
+nav{
+    width: 60%;
+    margin-top: 1%;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    background-color: white;
+    justify-content: space-around;
+    color: red;   
+}
+
+/*a start page main div*/
+
+.part{
+    display: flex;
+}
+
+/*the main left side contant*/
+
+.left-side{
+
+}
+
+/* a main left side div of start page main*/
+
+.intro{
+    font-size: 40px;
+    padding-left: 10%;
+    padding-top: 6%;
+    width: 50%;
+    color: white;
+}
+
+/* the main right side contant*/
+
+.right-side{
+    
+}
+
+/*for the image on right side on first page*/
+
+.rightImg{
+
+}
+
+
+/*for a key haeding center*/
+
+.KeyHeading{
+    display: flex;
+    justify-content: center;
+    margin : 5%;
+}
+
+
+/*card heading a Key Feture*/
+
+.keyFeture{
+    text-align: center;
+    align-items: center;
+    border-radius: 2rem;
+    padding: 3%;
+    padding-bottom: 2%;
+    width: fit-content;
+    background-color: rgba(0, 0, 0, 0.5);
+    color:lightcoral;
+    text-shadow: 0px 0px 10px black,
+                 0px 0px 20px black;
+    letter-spacing: 10px;
+}
+
+/*main center to make center group_of_cards*/
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+}
+
+/*second page for group of cards*/
+
+.group_of_card{
+    display: flex;
+    flex-wrap:wrap;
+    height: 640px;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
+    width: 80%;
+    padding-left: 90px;
+}
+
+/* for each card in side the group of cards*/
+
+.card{
+    box-shadow: 0px 0px 10px gray,
+                0px 0px 20px gray;
+    
+    border-radius: 1rem;
+    padding: 10px;
+    width: 60%;
+    height: 270px;
+    color: #cad2c5;
+    border: 2px solid black;
+}
+
+/*for all heading of cards*/
+
+.cardHeading{
+  text-align: center;
+  color: black;
+  margin-bottom: 5%;
+  color: lightcoral;
+}
+
+
+/* for all card image*/
+
+.cardImg{
+    width: 100%;
+    border-radius: 1rem;
+}
+
+/* for footer styeling menu*/
+
+footer{
+    margin-top: 10%;
+    align-items: center;
+}
+
+.footerInfo{
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 250px;
+    color: white;
+}
+
+.footer-contant{
+    margin-top: 15%;
+    margin-left: 10%;
+}
+
+.footer-h3{
+    margin-bottom: 1%;
+}
+
+.footer-link{
+    margin-top: 2%;
+    margin-left: 15%;
+    margin-bottom: 2%;
+}
+
+.foo-link{
+    text-decoration: none;
+    color: blue;
+
+}
+
+.footer-bottom{
+    text-align: center;
+}
